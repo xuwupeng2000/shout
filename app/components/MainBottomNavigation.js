@@ -57,7 +57,7 @@ class MainBottomNavigation extends PureComponent {
             onPress={() => this.props.navigateToPage(false, BottomNavigator.TABS.Alarm)}/>
 
           <ButtonNavigationActionNoColor
-            key="Services"
+            key="Service"
             icon={
               <TouchableOpacity>
                 <Image
@@ -66,7 +66,7 @@ class MainBottomNavigation extends PureComponent {
                   source={require('../../res/img/ic_services.png')}/>
               </TouchableOpacity>
             }
-            label={BottomNavigator.TABS.Alarm}
+            label={BottomNavigator.TABS.Service}
             onPress={() => this.props.navigateToPage(false, BottomNavigator.TABS.Service)}/>
       </BottomNavigation>
     );
